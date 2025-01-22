@@ -1,22 +1,11 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "lucide-react";
 import Link from "next/link";
 import { Fragment } from "react";
-import ProductGrid from "./components/product-grid";
 import products from "@/data/product";
 import Image from "next/image";
 import { TikTokIcon } from "./components/tiktok-icon";
 
 export default function Home() {
-  const categories = [
-    "Trending Gadgets",
-    "Beauty & Skincare",
-    "Fashion & Accessories",
-    "Home & Lifestyle",
-    "Fitness & Wellness",
-    "Tech & Electronics",
-  ];
-
   return (
     <Fragment>
       <section className="container mx-auto my-20 max-w-5xl flex flex-col lg:flex-row items-center gap-10">
