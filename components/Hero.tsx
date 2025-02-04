@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/images/avatar.jpg"
+                src="/images/avatar1.webp"
                 alt="TikTok Profile"
                 layout="fill"
                 objectFit="cover"
