@@ -10,7 +10,7 @@ const products = [
   {
     name: "Mô hình siêu xe DUCATI PANIGALE",
     image: "/lego-car/ducati-panigale.jpg",
-    imageHover: "/lego-car/panigale-2.jfif",
+    imageHover: "/lego-car/panigaler.webp",
     tiktokLink: "https://vt.tiktok.com/ZS6KBEvpv/",
   },
   {
@@ -28,7 +28,7 @@ const products = [
   {
     name: "Mô hình siêu xe F1 McLaren",
     image: "/lego-car/mclaren.webp",
-    imageHover: "/lego-car/mclaren-2.jfif",
+    imageHover: "/lego-car/tm_laren_1.webp",
     tiktokLink: "https://vt.tiktok.com/ZS6KSKH3L/",
   },
 ];
