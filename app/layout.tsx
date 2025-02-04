@@ -1,20 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
+<link rel="icon" href="/favicon.ico" sizes="any" />;
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
+  weight: ["400", "500", "700", "900"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "MiTo45 - Các sản phẩm mà tôi hay dùng",
-  description: "Các sản phẩm mà tôi hay dùng",
+  title: "@mito5497",
+  description: "Nơi cập nhật các sản phẩm theo xu hướng mới nhất !",
 };
 
 export default function RootLayout({
@@ -24,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#f5f5f5]`} suppressHydrationWarning
-      >
+      <body className={roboto.className} suppressHydrationWarning>
         {children}
       </body>
     </html>
